@@ -10,11 +10,16 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.rs.fer.service.ExpenseService;
 
+
+
+
 @Controller
 public class ExpenseController {
 	
 	@Autowired
 	private ExpenseService expenseService;
+	
+	
 	@RequestMapping(value = { "/displayAddExpense" }, method = RequestMethod.POST)
 	public ModelAndView displayAddExpense() throws IOException {
 		
@@ -23,6 +28,7 @@ public class ExpenseController {
 		mv.setViewName("AddExpense");
 		System.out.println("addExpense");
 		System.out.println("this is aj");
+		System.out.println("jameels out");
 		return mv;
 	}
 	
