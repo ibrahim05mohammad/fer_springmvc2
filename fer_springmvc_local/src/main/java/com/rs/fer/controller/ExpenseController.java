@@ -21,7 +21,7 @@ public class ExpenseController {
 		ModelAndView mv = new ModelAndView();
 		
 		mv.setViewName("AddExpense");
-		
+		System.out.println("addExpense");
 		return mv;
 	}
 
