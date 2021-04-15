@@ -22,9 +22,9 @@ public class ExpenseController {
 		
 		mv.setViewName("AddExpense");
 		System.out.println("addExpense");
+		System.out.println("this is aj");
 		return mv;
 	}
-
 	
 	
 }
