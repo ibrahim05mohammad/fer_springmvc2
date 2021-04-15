@@ -14,8 +14,8 @@ import com.rs.fer.vo.RegistrationVO;
 
 @Controller
 public class UserController {
-	
-	@Autowired
+	 
+    	@Autowired
 	private UserService userService;
 
 	@RequestMapping(value = { "/" }, method = RequestMethod.GET)
