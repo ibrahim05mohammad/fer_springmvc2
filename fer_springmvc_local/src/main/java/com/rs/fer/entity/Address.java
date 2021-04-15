@@ -20,6 +20,8 @@ public class Address {
 	@Column
 	private String lineTwo;
 	@Column
+	private String lineThree;
+	@Column
 	private String city;
 	@Column
 	private String state;
@@ -33,6 +35,14 @@ public class Address {
 	
 	public int getId() {
 		return id;
+	}
+
+	public String getLineThree() {
+		return lineThree;
+	}
+
+	public void setLineThree(String lineThree) {
+		this.lineThree = lineThree;
 	}
 
 	public void setId(int id) {
