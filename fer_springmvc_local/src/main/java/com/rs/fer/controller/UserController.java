@@ -21,6 +21,7 @@ public class UserController {
 	@RequestMapping(value = { "/" }, method = RequestMethod.GET)
 	public ModelAndView welcome() throws IOException {
 		ModelAndView mv = new ModelAndView();
+		System.out.println("for teju my out");
 		mv.setViewName("Login");
 		return mv;
 	}
