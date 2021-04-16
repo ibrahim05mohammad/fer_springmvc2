@@ -36,6 +36,7 @@ public class UserServiceImpl implements UserService {
 		User user = userUtil.getUser(registrationVO);
 		
 		try {
+			System.out.println("modified made by jameel on 17-04-21 for git hub");
 			repository.save(user);
 			return true;
 		} catch (Exception ex) {
